@@ -83,13 +83,13 @@ export const Banner = () => {
                     analyzing and problem-solving. He's currently seeking
                     frontend, backend, or full stack roles.
                   </p>
-                  <a
+                  {/* <a
                     href="#about"
                     className="square-button"
                     aria-label="scroll down to nico's about section"
                   >
                     Learn more about his values
-                  </a>
+                  </a> */}
                   <button
                     onClick={() => {
                       setShowMore(false);
@@ -125,13 +125,13 @@ export const Banner = () => {
             className="order-1 order-md-2 mb-5 mb-md-0"
           >
             <div className="d-flex justify-content-center">
-              <Image
+              {/* <Image
                 className="rounded-circle"
                 width="500"
                 height="500"
                 src="/assets/imgs/profile-pic.webp"
-                alt="Headshot of Gopdluck Lawani"
-              />
+                alt="Headshot of Goodluck Lawani"
+              /> */}
             </div>
           </Col>
         </Row>

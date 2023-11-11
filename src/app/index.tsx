@@ -19,7 +19,7 @@ function Home() {
         <NavBar />
         <Banner />
         <Projects />
-        <About />
+        {/* <About /> */}
         <Skills />
         <Footer />
       </div>

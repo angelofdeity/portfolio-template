@@ -1,9 +1,9 @@
 import { Container, Row, Col, Tab, Nav } from "react-bootstrap";
 import { ProjectCard } from "./ProjectCard";
-import { ProjectProps } from "./ProjectCard";
-
+import { ProjectProps } from "@/types/types";
+import { projects } from "@/site/config";
 export const Projects = () => {
-  const projects: ProjectProps[] = [
+  // const projects: ProjectProps[] = [
     // {
     //   title: "Mindfully",
     //   description:
@@ -40,7 +40,7 @@ export const Projects = () => {
     //   deployedUrl: "https://adminme.netlify.app/",
     //   tech: ["react", "mui", "javascript"],
     // },
-  ];
+  // ];
 
   const openSource: ProjectProps[] = [
     // {

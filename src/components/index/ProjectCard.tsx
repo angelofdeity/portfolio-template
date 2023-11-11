@@ -4,15 +4,7 @@ import OverlayTrigger from "react-bootstrap/OverlayTrigger";
 import Tooltip from "react-bootstrap/Tooltip";
 import { Github } from "react-bootstrap-icons";
 import { BoxArrowUpRight } from "react-bootstrap-icons";
-
-export type ProjectProps = {
-  title: string;
-  description: string,
-  imgUrl: string,
-  githubUrl?: string,
-  deployedUrl: string,
-  tech: string[],
-}
+import { ProjectProps } from "@/types/types";
 
 export const ProjectCard = ({
   title,
