@@ -1,3 +1,4 @@
+import { skills } from "@/site/config";
 import { Container, Row, Col } from "react-bootstrap";
 import Image from "react-bootstrap/Image";
 import OverlayTrigger from "react-bootstrap/OverlayTrigger";
@@ -13,23 +14,7 @@ export const Skills = () => {
               <h2 className="text-center">Tools and Technologies</h2>
               <div className="d-flex justify-content-center mt-5">
                 <div className="icon-container">
-                  {[
-                    "html",
-                    "css",
-                    "react",
-                    "mui",
-                    "tailwind",
-                    "bootstrap",
-                    "javascript",
-                    "typescript",
-                    "node",
-                    "express",
-                    // "next",
-                    // "prisma",
-                    "mongoDB",
-                    "postgresql",
-                    "git",
-                  ].map((toolName) => (
+                  {skills.map((toolName) => (
                     <OverlayTrigger
                       key={toolName}
                       trigger={["hover", "focus"]}
