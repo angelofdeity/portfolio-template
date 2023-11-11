@@ -860,7 +860,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   width: 15rem;
   height: 2.5rem;
   background-color: rgba(0, 0, 0, 0.6);
-  border: 2px solid rgb(189, 29, 43);
+  border: 2px solid var(--accent-color);
   border-radius: 2px;
   color: rgba(255, 255, 255, 0.7);
   cursor: pointer;
@@ -877,7 +877,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   width: 15rem;
   height: 2.5rem;
   border-radius: 3px;
-  border: 2px solid rgb(189, 29, 43);
+  border: 2px solid var(--accent-color);
   filter: blur(0);
   transform-origin: 50%;
   z-index: -1;

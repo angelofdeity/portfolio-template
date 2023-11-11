@@ -3,7 +3,7 @@ import Link from "./Link";
 let linksList = [
   {
     title: "Portfolio",
-    link: "#",
+    link: "/",
   },
   {
     title: "LinkedIn",
