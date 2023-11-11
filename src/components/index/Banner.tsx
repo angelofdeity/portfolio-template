@@ -11,7 +11,7 @@ export const Banner = () => {
   const [characterPeriod, setCharacterPeriod] = useState(100); //how much time passes between each character being typed out
   const roles = [
     "Software Engineer",
-    "Mental Health Advocate",
+    "Civil Engineer",
     "Community Developer",
   ];
   const period = 500; //how much time passes between each role
@@ -67,14 +67,14 @@ export const Banner = () => {
               <span
                 className="txt-role"
                 data-period="500"
-                data-role='[ "Software Engineer", "Mental Health Advocate", "Community Developer" ]'
+                data-role={roles.toString()}
               >
                 <span className="wrap">{text}</span>
               </span>
               {showMore ? (
                 <div>
                   <p>
-                    Goodluck(Nico)Lawani is a full-stack developer who specializes in
+                    Goodluck Lawani a.k.a Nico, is a full-stack developer who specializes in
                     JavaScript & Python technologies. He has practical an hands-on
                     experience building RESTful API's and delivering
                     responsive, scalable user interfaces. His background in
@@ -101,7 +101,7 @@ export const Banner = () => {
               ) : (
                 <div>
                   <p>
-                    Goodluck(Nico) Lawani is a full-stack developer who specializes in
+                    Goodluck Lawani a.k.a Nico is a full-stack developer who specializes in
                       Python & JavaScript technologies. He has practical and hands on
                       experience building RESTful API's and delivering
                     responsive, scalable user interfaces.
